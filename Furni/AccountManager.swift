@@ -79,7 +79,7 @@ final class AccountManager {
 
         self.syncClient = AWSCognito.defaultCognito()
 
-        self.restoreSessions()
+//        self.restoreSessions()
     }
 
     var isUserLoggedIn: Bool {
